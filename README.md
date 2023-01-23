@@ -29,7 +29,11 @@ FROM TRIANGLES;
 
 
 Bu sorgu Microsoft SQL Server veri tabanı yönetim sistemi programında verilerden eşkenar üçgen olanlar, ikizkenar üçgen olanlar, çeşitkenar üçgen olanlar ve üçgen olma şartını sağlayamayanları gösterir.
+
 Eşkenar üçgen olması için üç kenar verisinin birbirine eşit olması gerektiğinden a=b=c şeklinde belirtebiliriz.
+
 İkizkenar üçgen olması için iki kenarı eşit bir kenarı farklı olmalı,ancak aynı zamanda üçgen şartını sağlaması için herhangi iki kenarın toplamı üçüncü kenardan küçük olmamalı ki bunu da unutmamamız gerekiyor.
+
 Çeşitkenar üçgenin üç kenarı da farklıdır ve üçgen olma şartını karşılamalıdır.
-Peki neden "A + B > C AND B + C > A AND A + C > B" bu kısmı başa yazdık? Çünkü önce üçgen olup olmadığını çözmeye çalıştık ve daha sonra çeşitkenar,ikizkenar vb. olduğunun sorgusunu yaptık.
+
+Peki neden "A + B > C AND B + C > A AND A + C > B" kısmını başa yazdık? Çünkü önce üçgen olup olmadığını çözmeye çalıştık ve daha sonra çeşitkenar,ikizkenar vb. olduğunun sorgusunu yaptık.
